@@ -21,7 +21,7 @@ services:
     networks:
       - default
     environment:
-      POSTGRES_USER: "card"
+      POSTGRES_USER: "ecotone"
       POSTGRES_PASSWORD: "secret"
     ports:
       - "5432:5432"
